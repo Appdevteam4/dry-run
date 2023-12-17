@@ -8,9 +8,20 @@
 #include <string>
 #include <ctime>
 
-using namespace std;
-using vec = vector<string>;
-using matrix = vector<vec>;
+using std::string;
+using std::vector;
+using std::ifstream;
+using std::ofstream;
+using std::stringstream;
+using std::cout;
+using std::setw;
+using std::setfill;
+using std::endl;
+using std::cerr;
+using std::chrono::system_clock;
+using std::chrono::to_time_t;
+using std::localtime;
+using std::strftime;
 
 //======================================================================
 
