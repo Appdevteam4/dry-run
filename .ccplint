@@ -1,5 +1,0 @@
-# Specify additional checks here
-filter=-build/include_subdir
-
-# Specify header file extensions
-extensions=h,hpp
